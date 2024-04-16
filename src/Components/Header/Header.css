@@ -1,0 +1,11 @@
+.animation{
+    animation: appear 0.3s;
+}
+@keyframes appear {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
